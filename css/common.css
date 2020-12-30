@@ -35,13 +35,13 @@ a:hover{ text-decoration: none}
 .w600{width:450px;}
 .foot-bottom {padding-bottom:100px; position:relative;}
 .line {border-top:#bababa solid 1px;}
-
-
+.joinus li {line-height: 1.6em;padding:6px 0;}
+.joinus li a {color:blue;text-decoration: underline;}
 #header {height:210px; background:url(../img/index-top.jpg) center center no-repeat}
 #logo {width:164px; height:155px; padding-top:55px;}
 #menu {border-top:#bababa solid 1px; padding:0; margin:0;}
 #menu ul {display:block; height:40px;}
-#menu ul li {float:left; margin:0 50px 0 60px;}
+#menu ul li {float:left; margin:0 40px 0 40px;}
 #menu ul li a {font-size:14px; color:#2a2929; display:block; line-height:40px; padding:0 5px; position:relative;}
 #menu ul li a em {display:none; width:12px; height:7px; position:absolute; left:50%; bottom:-4px; margin-left:-6px; background:url(../img/menu-icon.png) 0 0 no-repeat;}
 #menu ul li a:hover,
@@ -107,6 +107,7 @@ to {bottom:20px;}
 .message {width:670px; margin-right:60px;}
 .message h3 {padding:20px 0; border-bottom:#e3e3e3 solid 1px;}
 .message h3 p {font-weight:normal; font-size:16px; line-height:22px; color:#757575;}
+.message h3 b {font-weight: bold;font-size: 16px;line-height: 24px;}
 .message span {display:block; padding:20px 0; height:20px;}
 .message span label {float:left; margin-right:30px; font-size:14px; color:#757575; cursor:pointer}
 .message span label input {margin-right:10px}
